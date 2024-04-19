@@ -18,7 +18,11 @@
 ```console
   npx playwright install
 ```
-7. Run tests
+7. Run tests with default environment
 ```console
   npx playwright test
+```
+8. Run tests with given environment
+```console
+  NODE_ENV=live npx playwright test
 ```

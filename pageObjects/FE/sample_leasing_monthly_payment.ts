@@ -92,6 +92,7 @@ export default class SampleLeasingMonthlyPaymentCalculator {
      */
     async openLeasingPageAndAcceptCookies() {
         console.log('Ava liisingu kalkulaator ja nõustu küpsistega.');
+        console.log(`Ava url: /liising#kalkulaator`)
         await this.page.goto('/liising#kalkulaator');
         await expect(this.acceptCookieButton).toBeVisible();
         await this.clickAcceptCookieButton();
