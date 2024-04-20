@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import SampleLeasingMonthlyPaymentCalculator from '../pageObjects/FE/sample_leasing_monthly_payment';
+import SampleLeasingMonthlyPaymentCalculator from '../pageObjects/FE/sampleLeasingMonthlyPaymentCalculator';
 import MaximumLeasingMonthlyPaymentCalculator from '../pageObjects/FE/maximumLeasingMonthlyPaymentCalculator';
 
 test('Validate that maximum monthly payment is calcualed', async ({ page }) => {

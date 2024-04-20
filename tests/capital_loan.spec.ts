@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import SampleLeasingMonthlyPaymentCalculator from '../pageObjects/FE/sample_leasing_monthly_payment';
+import SampleLeasingMonthlyPaymentCalculator from '../pageObjects/FE/sampleLeasingMonthlyPaymentCalculator';
 import LeasingPrices from '../testData/leasingPrices';
 import SamplePaymentSchedule from '../pageObjects/FE/samplePaymentSchedule';
 
