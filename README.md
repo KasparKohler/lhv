@@ -15,9 +15,9 @@
 ```console
   npm ci
 ```
-6. Install playwright browsers
+6. Install browsers
 ```console
-  npx playwright install
+  npx playwright install --with-deps
 ```
 7. Run tests with default environment
 ```console
